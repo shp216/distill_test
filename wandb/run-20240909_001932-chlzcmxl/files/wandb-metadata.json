@@ -1,0 +1,168 @@
+{
+    "os": "Linux-6.8.0-40-generic-x86_64-with-glibc2.35",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-09-08T15:19:32.942548",
+    "startedAt": "2024-09-08T15:19:32.093204",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/sehwan/MIIL/diffusion-distillation/distillation.py",
+    "codePathLocal": "distillation.py",
+    "codePath": "distillation.py",
+    "git": {
+        "remote": "https://github.com/DH1929ds/diffusion-distillation.git",
+        "commit": "903e1e3339923a9c4d1468cf49d5467bb386e605"
+    },
+    "email": "qkrtpghks1214@gmail.com",
+    "root": "/home/sehwan/MIIL/diffusion-distillation",
+    "host": "sehwan--Ubuntu",
+    "username": "sehwan",
+    "executable": "/home/sehwan/anaconda3/envs/SLD/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 2758.395583333333,
+        "min": 800.0,
+        "max": 4950.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3180.318,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 4035.331,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3111.191,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 3922.388,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 2673.72,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 5379.942,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 2669.887,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 2652.694,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 2608.641,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 4100.859,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3199.83,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 2623.076,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 2686.498,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 2613.432,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4200.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 457.3268280029297,
+            "used": 418.5792045593262
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4070 Ti SUPER",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4070 Ti SUPER",
+            "memory_total": 17171480576
+        }
+    ],
+    "memory": {
+        "total": 31.172863006591797
+    }
+}

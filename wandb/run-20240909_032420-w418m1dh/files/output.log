@@ -1,0 +1,15 @@
+
+Loading pipeline components...: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:00<00:00, 47.50it/s]
+DDIMPipeline {
+  "_class_name": "DDIMPipeline",
+  "_diffusers_version": "0.20.2",
+  "_name_or_path": "google/ddpm-cifar10-32",
+  "scheduler": [
+    "diffusers",
+    "DDIMScheduler"
+  ],
+  "unet": [
+    "diffusers",
+    "UNet2DModel"
+  ]
+}

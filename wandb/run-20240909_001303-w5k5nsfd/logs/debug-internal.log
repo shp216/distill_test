@@ -1,0 +1,191 @@
+2024-09-09 00:13:03,493 INFO    StreamThr :18607 [internal.py:wandb_internal():85] W&B internal server running at pid: 18607, started at: 2024-09-09 00:13:03.492984
+2024-09-09 00:13:03,495 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: status
+2024-09-09 00:13:03,497 INFO    WriterThread:18607 [datastore.py:open_for_write():87] open: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/run-w5k5nsfd.wandb
+2024-09-09 00:13:03,498 DEBUG   SenderThread:18607 [sender.py:send():391] send: header
+2024-09-09 00:13:03,504 DEBUG   SenderThread:18607 [sender.py:send():391] send: run
+2024-09-09 00:13:04,213 INFO    SenderThread:18607 [dir_watcher.py:__init__():211] watching files in: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/files
+2024-09-09 00:13:04,213 INFO    SenderThread:18607 [sender.py:_start_run_threads():1200] run started: w5k5nsfd with start time 1725808383.492537
+2024-09-09 00:13:04,217 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: run_start
+2024-09-09 00:13:04,231 DEBUG   HandlerThread:18607 [system_info.py:__init__():26] System info init
+2024-09-09 00:13:04,231 DEBUG   HandlerThread:18607 [system_info.py:__init__():41] System info init done
+2024-09-09 00:13:04,231 INFO    HandlerThread:18607 [system_monitor.py:start():194] Starting system monitor
+2024-09-09 00:13:04,231 INFO    SystemMonitor:18607 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-09 00:13:04,231 INFO    HandlerThread:18607 [system_monitor.py:probe():214] Collecting system info
+2024-09-09 00:13:04,232 INFO    SystemMonitor:18607 [interfaces.py:start():188] Started cpu monitoring
+2024-09-09 00:13:04,232 INFO    SystemMonitor:18607 [interfaces.py:start():188] Started disk monitoring
+2024-09-09 00:13:04,232 INFO    SystemMonitor:18607 [interfaces.py:start():188] Started gpu monitoring
+2024-09-09 00:13:04,234 INFO    SystemMonitor:18607 [interfaces.py:start():188] Started memory monitoring
+2024-09-09 00:13:04,234 INFO    SystemMonitor:18607 [interfaces.py:start():188] Started network monitoring
+2024-09-09 00:13:04,245 DEBUG   HandlerThread:18607 [system_info.py:probe():152] Probing system
+2024-09-09 00:13:04,248 DEBUG   HandlerThread:18607 [system_info.py:_probe_git():137] Probing git
+2024-09-09 00:13:04,254 DEBUG   HandlerThread:18607 [system_info.py:_probe_git():145] Probing git done
+2024-09-09 00:13:04,254 DEBUG   HandlerThread:18607 [system_info.py:probe():200] Probing system done
+2024-09-09 00:13:04,254 DEBUG   HandlerThread:18607 [system_monitor.py:probe():223] {'os': 'Linux-6.8.0-40-generic-x86_64-with-glibc2.35', 'python': '3.9.19', 'heartbeatAt': '2024-09-08T15:13:04.245895', 'startedAt': '2024-09-08T15:13:03.486460', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/sehwan/MIIL/diffusion-distillation/distillation.py', 'codePathLocal': 'distillation.py', 'codePath': 'distillation.py', 'git': {'remote': 'https://github.com/DH1929ds/diffusion-distillation.git', 'commit': '903e1e3339923a9c4d1468cf49d5467bb386e605'}, 'email': 'qkrtpghks1214@gmail.com', 'root': '/home/sehwan/MIIL/diffusion-distillation', 'host': 'sehwan--Ubuntu', 'username': 'sehwan', 'executable': '/home/sehwan/anaconda3/envs/SLD/bin/python', 'cpu_count': 16, 'cpu_count_logical': 24, 'cpu_freq': {'current': 3172.9240416666667, 'min': 800.0, 'max': 4950.0}, 'cpu_freq_per_core': [{'current': 3949.321, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 3873.333, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 3921.543, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 4279.338, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 3968.421, 'min': 800.0, 'max': 5400.0}, {'current': 800.0, 'min': 800.0, 'max': 5400.0}, {'current': 3826.53, 'min': 800.0, 'max': 5400.0}, {'current': 3765.571, 'min': 800.0, 'max': 5400.0}, {'current': 3840.0, 'min': 800.0, 'max': 5300.0}, {'current': 4281.818, 'min': 800.0, 'max': 5300.0}, {'current': 3990.895, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 4126.046, 'min': 800.0, 'max': 4200.0}, {'current': 4198.926, 'min': 800.0, 'max': 4200.0}, {'current': 3796.354, 'min': 800.0, 'max': 4200.0}, {'current': 3868.0, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 3794.897, 'min': 800.0, 'max': 4200.0}, {'current': 4168.555, 'min': 800.0, 'max': 4200.0}], 'disk': {'/': {'total': 457.3268280029297, 'used': 417.3695526123047}}, 'gpu': 'NVIDIA GeForce RTX 4070 Ti SUPER', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4070 Ti SUPER', 'memory_total': 17171480576}], 'memory': {'total': 31.172863006591797}}
+2024-09-09 00:13:04,254 INFO    HandlerThread:18607 [system_monitor.py:probe():224] Finished collecting system info
+2024-09-09 00:13:04,254 INFO    HandlerThread:18607 [system_monitor.py:probe():227] Publishing system info
+2024-09-09 00:13:04,254 DEBUG   HandlerThread:18607 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-09-09 00:13:05,213 INFO    Thread-12 :18607 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/files/conda-environment.yaml
+2024-09-09 00:13:05,322 DEBUG   HandlerThread:18607 [system_info.py:_save_conda():224] Saving conda packages done
+2024-09-09 00:13:05,322 INFO    HandlerThread:18607 [system_monitor.py:probe():229] Finished publishing system info
+2024-09-09 00:13:05,324 DEBUG   SenderThread:18607 [sender.py:send():391] send: files
+2024-09-09 00:13:05,324 INFO    SenderThread:18607 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-09-09 00:13:05,362 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: python_packages
+2024-09-09 00:13:05,362 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: python_packages
+2024-09-09 00:13:05,362 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-09 00:13:05,363 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: stop_status
+2024-09-09 00:13:05,363 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-09 00:13:06,058 DEBUG   SenderThread:18607 [sender.py:send():391] send: telemetry
+2024-09-09 00:13:06,213 INFO    Thread-12 :18607 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/files/conda-environment.yaml
+2024-09-09 00:13:06,213 INFO    Thread-12 :18607 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/files/wandb-metadata.json
+2024-09-09 00:13:06,213 INFO    Thread-12 :18607 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/files/requirements.txt
+2024-09-09 00:13:06,354 INFO    wandb-upload_0:18607 [upload_job.py:push():130] Uploaded file /tmp/tmplwmfxnqkwandb/h5qzpqpc-wandb-metadata.json
+2024-09-09 00:13:06,623 DEBUG   SenderThread:18607 [sender.py:send():391] send: exit
+2024-09-09 00:13:06,624 INFO    SenderThread:18607 [sender.py:send_exit():598] handling exit code: 1
+2024-09-09 00:13:06,624 INFO    SenderThread:18607 [sender.py:send_exit():600] handling runtime: 2
+2024-09-09 00:13:06,627 INFO    SenderThread:18607 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-09 00:13:06,628 INFO    SenderThread:18607 [sender.py:send_exit():606] send defer
+2024-09-09 00:13:06,628 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:13:06,628 INFO    HandlerThread:18607 [handler.py:handle_request_defer():184] handle defer: 0
+2024-09-09 00:13:06,629 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:13:06,629 INFO    SenderThread:18607 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-09-09 00:13:06,629 INFO    SenderThread:18607 [sender.py:transition_state():626] send defer: 1
+2024-09-09 00:13:06,629 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:13:06,630 INFO    HandlerThread:18607 [handler.py:handle_request_defer():184] handle defer: 1
+2024-09-09 00:13:06,630 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:13:06,630 INFO    SenderThread:18607 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-09-09 00:13:06,630 INFO    SenderThread:18607 [sender.py:transition_state():626] send defer: 2
+2024-09-09 00:13:06,630 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:13:06,631 INFO    HandlerThread:18607 [handler.py:handle_request_defer():184] handle defer: 2
+2024-09-09 00:13:06,631 INFO    HandlerThread:18607 [system_monitor.py:finish():203] Stopping system monitor
+2024-09-09 00:13:06,631 DEBUG   SystemMonitor:18607 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-09-09 00:13:06,632 INFO    HandlerThread:18607 [interfaces.py:finish():200] Joined cpu monitor
+2024-09-09 00:13:06,632 DEBUG   SystemMonitor:18607 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-09-09 00:13:06,633 DEBUG   SystemMonitor:18607 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-09-09 00:13:06,633 INFO    HandlerThread:18607 [interfaces.py:finish():200] Joined disk monitor
+2024-09-09 00:13:06,667 INFO    HandlerThread:18607 [interfaces.py:finish():200] Joined gpu monitor
+2024-09-09 00:13:06,667 INFO    HandlerThread:18607 [interfaces.py:finish():200] Joined memory monitor
+2024-09-09 00:13:06,667 INFO    HandlerThread:18607 [interfaces.py:finish():200] Joined network monitor
+2024-09-09 00:13:06,667 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:13:06,667 INFO    SenderThread:18607 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-09-09 00:13:06,667 INFO    SenderThread:18607 [sender.py:transition_state():626] send defer: 3
+2024-09-09 00:13:06,667 DEBUG   SenderThread:18607 [sender.py:send():391] send: stats
+2024-09-09 00:13:06,667 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:13:06,667 INFO    HandlerThread:18607 [handler.py:handle_request_defer():184] handle defer: 3
+2024-09-09 00:13:06,667 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:13:06,667 INFO    SenderThread:18607 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-09-09 00:13:06,667 INFO    SenderThread:18607 [sender.py:transition_state():626] send defer: 4
+2024-09-09 00:13:06,667 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:13:06,667 INFO    HandlerThread:18607 [handler.py:handle_request_defer():184] handle defer: 4
+2024-09-09 00:13:06,667 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:13:06,667 INFO    SenderThread:18607 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-09-09 00:13:06,667 INFO    SenderThread:18607 [sender.py:transition_state():626] send defer: 5
+2024-09-09 00:13:06,667 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:13:06,667 INFO    HandlerThread:18607 [handler.py:handle_request_defer():184] handle defer: 5
+2024-09-09 00:13:06,667 DEBUG   SenderThread:18607 [sender.py:send():391] send: summary
+2024-09-09 00:13:06,668 INFO    SenderThread:18607 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-09 00:13:06,668 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:13:06,668 INFO    SenderThread:18607 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-09-09 00:13:06,668 INFO    SenderThread:18607 [sender.py:transition_state():626] send defer: 6
+2024-09-09 00:13:06,668 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:13:06,668 INFO    HandlerThread:18607 [handler.py:handle_request_defer():184] handle defer: 6
+2024-09-09 00:13:06,668 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:13:06,668 INFO    SenderThread:18607 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-09-09 00:13:06,669 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: status_report
+2024-09-09 00:13:06,983 INFO    SenderThread:18607 [sender.py:transition_state():626] send defer: 7
+2024-09-09 00:13:06,984 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:13:06,984 INFO    HandlerThread:18607 [handler.py:handle_request_defer():184] handle defer: 7
+2024-09-09 00:13:06,984 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:13:06,985 INFO    SenderThread:18607 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-09-09 00:13:07,214 INFO    Thread-12 :18607 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/files/config.yaml
+2024-09-09 00:13:07,215 INFO    Thread-12 :18607 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/files/output.log
+2024-09-09 00:13:07,215 INFO    Thread-12 :18607 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/files/wandb-summary.json
+2024-09-09 00:13:07,621 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-09 00:13:08,585 INFO    SenderThread:18607 [sender.py:transition_state():626] send defer: 8
+2024-09-09 00:13:08,586 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: poll_exit
+2024-09-09 00:13:08,586 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:13:08,586 INFO    HandlerThread:18607 [handler.py:handle_request_defer():184] handle defer: 8
+2024-09-09 00:13:08,587 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:13:08,587 INFO    SenderThread:18607 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-09-09 00:13:08,587 INFO    SenderThread:18607 [job_builder.py:build():443] Attempting to build job artifact
+2024-09-09 00:13:08,588 INFO    SenderThread:18607 [job_builder.py:_get_source_type():572] is repo sourced job
+2024-09-09 00:13:08,622 INFO    SenderThread:18607 [job_builder.py:build():548] adding wandb-job metadata file
+2024-09-09 00:13:08,623 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-09 00:13:08,625 INFO    SenderThread:18607 [sender.py:transition_state():626] send defer: 9
+2024-09-09 00:13:08,625 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: poll_exit
+2024-09-09 00:13:08,625 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:13:08,626 DEBUG   SenderThread:18607 [sender.py:send():391] send: artifact
+2024-09-09 00:13:08,626 INFO    HandlerThread:18607 [handler.py:handle_request_defer():184] handle defer: 9
+2024-09-09 00:13:09,215 INFO    Thread-12 :18607 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/files/output.log
+2024-09-09 00:13:09,623 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-09 00:13:12,935 INFO    wandb-upload_0:18607 [upload_job.py:push():88] Uploaded file /tmp/tmpfm7tslg5/wandb-job.json
+2024-09-09 00:13:13,203 INFO    wandb-upload_1:18607 [upload_job.py:push():88] Uploaded file /home/sehwan/.local/share/wandb/artifacts/staging/tmplym71rui
+2024-09-09 00:13:14,494 INFO    SenderThread:18607 [sender.py:send_artifact():1549] sent artifact job-https___github.com_DH1929ds_diffusion-distillation.git_distillation.py - {'id': 'QXJ0aWZhY3Q6MTE5Nzk1NzY1OA==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQzMzQ3MjQ3NQ==', 'latestArtifact': None}}
+2024-09-09 00:13:14,495 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:13:14,495 INFO    SenderThread:18607 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-09-09 00:13:14,495 INFO    SenderThread:18607 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-09-09 00:13:14,495 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: status_report
+2024-09-09 00:13:14,626 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: keepalive
+2024-09-09 00:13:15,216 INFO    SenderThread:18607 [dir_watcher.py:finish():388] scan: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/files
+2024-09-09 00:13:15,217 INFO    SenderThread:18607 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/files/config.yaml config.yaml
+2024-09-09 00:13:15,217 INFO    SenderThread:18607 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/files/requirements.txt requirements.txt
+2024-09-09 00:13:15,217 INFO    SenderThread:18607 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/files/conda-environment.yaml conda-environment.yaml
+2024-09-09 00:13:15,217 INFO    SenderThread:18607 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/files/wandb-metadata.json wandb-metadata.json
+2024-09-09 00:13:15,218 INFO    SenderThread:18607 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/files/output.log output.log
+2024-09-09 00:13:15,218 INFO    SenderThread:18607 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/files/wandb-summary.json wandb-summary.json
+2024-09-09 00:13:15,218 INFO    SenderThread:18607 [sender.py:transition_state():626] send defer: 10
+2024-09-09 00:13:15,218 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: poll_exit
+2024-09-09 00:13:15,218 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:13:15,219 INFO    HandlerThread:18607 [handler.py:handle_request_defer():184] handle defer: 10
+2024-09-09 00:13:15,220 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:13:15,230 INFO    SenderThread:18607 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-09-09 00:13:15,230 INFO    SenderThread:18607 [file_pusher.py:finish():169] shutting down file pusher
+2024-09-09 00:13:15,627 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-09 00:13:15,628 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: poll_exit
+2024-09-09 00:13:15,693 INFO    wandb-upload_0:18607 [upload_job.py:push():130] Uploaded file /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/files/config.yaml
+2024-09-09 00:13:15,724 INFO    wandb-upload_1:18607 [upload_job.py:push():130] Uploaded file /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/files/conda-environment.yaml
+2024-09-09 00:13:15,846 INFO    wandb-upload_3:18607 [upload_job.py:push():130] Uploaded file /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/files/output.log
+2024-09-09 00:13:15,873 INFO    wandb-upload_2:18607 [upload_job.py:push():130] Uploaded file /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/files/requirements.txt
+2024-09-09 00:13:15,906 INFO    wandb-upload_4:18607 [upload_job.py:push():130] Uploaded file /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/files/wandb-summary.json
+2024-09-09 00:13:16,106 INFO    Thread-11 :18607 [sender.py:transition_state():626] send defer: 11
+2024-09-09 00:13:16,107 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:13:16,107 INFO    HandlerThread:18607 [handler.py:handle_request_defer():184] handle defer: 11
+2024-09-09 00:13:16,107 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:13:16,108 INFO    SenderThread:18607 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-09-09 00:13:16,108 INFO    SenderThread:18607 [file_pusher.py:join():175] waiting for file pusher
+2024-09-09 00:13:16,108 INFO    SenderThread:18607 [sender.py:transition_state():626] send defer: 12
+2024-09-09 00:13:16,108 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:13:16,109 INFO    HandlerThread:18607 [handler.py:handle_request_defer():184] handle defer: 12
+2024-09-09 00:13:16,109 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:13:16,109 INFO    SenderThread:18607 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-09-09 00:13:16,109 INFO    SenderThread:18607 [file_stream.py:finish():601] file stream finish called
+2024-09-09 00:13:16,361 INFO    SenderThread:18607 [file_stream.py:finish():605] file stream finish is done
+2024-09-09 00:13:16,362 INFO    SenderThread:18607 [sender.py:transition_state():626] send defer: 13
+2024-09-09 00:13:16,362 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:13:16,362 INFO    HandlerThread:18607 [handler.py:handle_request_defer():184] handle defer: 13
+2024-09-09 00:13:16,363 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:13:16,363 INFO    SenderThread:18607 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-09-09 00:13:16,363 INFO    SenderThread:18607 [sender.py:transition_state():626] send defer: 14
+2024-09-09 00:13:16,363 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:13:16,363 INFO    HandlerThread:18607 [handler.py:handle_request_defer():184] handle defer: 14
+2024-09-09 00:13:16,364 DEBUG   SenderThread:18607 [sender.py:send():391] send: final
+2024-09-09 00:13:16,364 DEBUG   SenderThread:18607 [sender.py:send():391] send: footer
+2024-09-09 00:13:16,364 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:13:16,364 INFO    SenderThread:18607 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-09-09 00:13:16,365 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-09 00:13:16,365 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: poll_exit
+2024-09-09 00:13:16,366 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: server_info
+2024-09-09 00:13:16,366 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: server_info
+2024-09-09 00:13:16,370 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-09 00:13:16,370 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: get_summary
+2024-09-09 00:13:16,371 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: sampled_history
+2024-09-09 00:13:16,372 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-09 00:13:16,587 DEBUG   SenderThread:18607 [sender.py:send_request():418] send_request: poll_exit
+2024-09-09 00:13:16,588 INFO    MainThread:18607 [wandb_run.py:_footer_history_summary_info():4088] rendering history
+2024-09-09 00:13:16,588 INFO    MainThread:18607 [wandb_run.py:_footer_history_summary_info():4120] rendering summary
+2024-09-09 00:13:16,588 INFO    MainThread:18607 [wandb_run.py:_footer_sync_info():4047] logging synced files
+2024-09-09 00:13:16,589 DEBUG   HandlerThread:18607 [handler.py:handle_request():158] handle_request: shutdown
+2024-09-09 00:13:16,589 INFO    HandlerThread:18607 [handler.py:finish():884] shutting down handler
+2024-09-09 00:13:17,371 INFO    WriterThread:18607 [datastore.py:close():296] close: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001303-w5k5nsfd/run-w5k5nsfd.wandb
+2024-09-09 00:13:17,587 INFO    SenderThread:18607 [sender.py:finish():1631] shutting down sender
+2024-09-09 00:13:17,588 INFO    SenderThread:18607 [file_pusher.py:finish():169] shutting down file pusher
+2024-09-09 00:13:17,588 INFO    SenderThread:18607 [file_pusher.py:join():175] waiting for file pusher

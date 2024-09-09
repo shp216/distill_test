@@ -1,0 +1,40 @@
+tensor([  0,   0,   0,  ..., 999, 999, 999], device='cuda:0')
+Iteration 1/1000 completed in 36.87 seconds.
+tensor([  0,   0,   0,  ..., 999, 999, 999], device='cuda:0')
+Iteration 2/1000 completed in 36.38 seconds.
+tensor([  0,   0,   0,  ..., 999, 999, 999], device='cuda:0')
+Iteration 3/1000 completed in 36.65 seconds.
+Traceback (most recent call last):
+  File "/home/sehwan/MIIL/diffusion-distillation/distillation.py", line 548, in <module>
+    app.run(main)
+  File "/home/sehwan/anaconda3/envs/SLD/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/sehwan/anaconda3/envs/SLD/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/sehwan/MIIL/diffusion-distillation/distillation.py", line 544, in main
+    distill_caching_random()
+  File "/home/sehwan/MIIL/diffusion-distillation/distillation.py", line 429, in distill_caching_random
+    img_cache[start_idx:end_idx] = trainer.teacher_sampling(x_t, i)
+  File "/home/sehwan/MIIL/diffusion-distillation/diffusion.py", line 142, in teacher_sampling
+    mean, log_var = self.p_mean_variance_T(x_t=x_t, t=t)
+  File "/home/sehwan/MIIL/diffusion-distillation/diffusion.py", line 126, in p_mean_variance_T
+    eps = self.T_model(x_t, t)
+  File "/home/sehwan/anaconda3/envs/SLD/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sehwan/MIIL/diffusion-distillation/model.py", line 221, in forward
+    h = layer(h, temb)
+  File "/home/sehwan/anaconda3/envs/SLD/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sehwan/MIIL/diffusion-distillation/model.py", line 152, in forward
+    h = self.block1(x)
+  File "/home/sehwan/anaconda3/envs/SLD/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sehwan/anaconda3/envs/SLD/lib/python3.9/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/home/sehwan/anaconda3/envs/SLD/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sehwan/anaconda3/envs/SLD/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/sehwan/anaconda3/envs/SLD/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 459, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+KeyboardInterrupt

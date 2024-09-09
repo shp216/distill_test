@@ -1,0 +1,185 @@
+2024-09-09 00:19:32,098 INFO    StreamThr :20038 [internal.py:wandb_internal():85] W&B internal server running at pid: 20038, started at: 2024-09-09 00:19:32.098131
+2024-09-09 00:19:32,100 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: status
+2024-09-09 00:19:32,102 INFO    WriterThread:20038 [datastore.py:open_for_write():87] open: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/run-chlzcmxl.wandb
+2024-09-09 00:19:32,104 DEBUG   SenderThread:20038 [sender.py:send():391] send: header
+2024-09-09 00:19:32,114 DEBUG   SenderThread:20038 [sender.py:send():391] send: run
+2024-09-09 00:19:32,911 INFO    SenderThread:20038 [dir_watcher.py:__init__():211] watching files in: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/files
+2024-09-09 00:19:32,911 INFO    SenderThread:20038 [sender.py:_start_run_threads():1200] run started: chlzcmxl with start time 1725808772.098019
+2024-09-09 00:19:32,916 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: run_start
+2024-09-09 00:19:32,930 DEBUG   HandlerThread:20038 [system_info.py:__init__():26] System info init
+2024-09-09 00:19:32,930 DEBUG   HandlerThread:20038 [system_info.py:__init__():41] System info init done
+2024-09-09 00:19:32,930 INFO    HandlerThread:20038 [system_monitor.py:start():194] Starting system monitor
+2024-09-09 00:19:32,930 INFO    SystemMonitor:20038 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-09 00:19:32,930 INFO    HandlerThread:20038 [system_monitor.py:probe():214] Collecting system info
+2024-09-09 00:19:32,931 INFO    SystemMonitor:20038 [interfaces.py:start():188] Started cpu monitoring
+2024-09-09 00:19:32,931 INFO    SystemMonitor:20038 [interfaces.py:start():188] Started disk monitoring
+2024-09-09 00:19:32,931 INFO    SystemMonitor:20038 [interfaces.py:start():188] Started gpu monitoring
+2024-09-09 00:19:32,933 INFO    SystemMonitor:20038 [interfaces.py:start():188] Started memory monitoring
+2024-09-09 00:19:32,933 INFO    SystemMonitor:20038 [interfaces.py:start():188] Started network monitoring
+2024-09-09 00:19:32,942 DEBUG   HandlerThread:20038 [system_info.py:probe():152] Probing system
+2024-09-09 00:19:32,948 DEBUG   HandlerThread:20038 [system_info.py:_probe_git():137] Probing git
+2024-09-09 00:19:32,962 DEBUG   HandlerThread:20038 [system_info.py:_probe_git():145] Probing git done
+2024-09-09 00:19:32,963 DEBUG   HandlerThread:20038 [system_info.py:probe():200] Probing system done
+2024-09-09 00:19:32,963 DEBUG   HandlerThread:20038 [system_monitor.py:probe():223] {'os': 'Linux-6.8.0-40-generic-x86_64-with-glibc2.35', 'python': '3.9.19', 'heartbeatAt': '2024-09-08T15:19:32.942548', 'startedAt': '2024-09-08T15:19:32.093204', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/sehwan/MIIL/diffusion-distillation/distillation.py', 'codePathLocal': 'distillation.py', 'codePath': 'distillation.py', 'git': {'remote': 'https://github.com/DH1929ds/diffusion-distillation.git', 'commit': '903e1e3339923a9c4d1468cf49d5467bb386e605'}, 'email': 'qkrtpghks1214@gmail.com', 'root': '/home/sehwan/MIIL/diffusion-distillation', 'host': 'sehwan--Ubuntu', 'username': 'sehwan', 'executable': '/home/sehwan/anaconda3/envs/SLD/bin/python', 'cpu_count': 16, 'cpu_count_logical': 24, 'cpu_freq': {'current': 2758.395583333333, 'min': 800.0, 'max': 4950.0}, 'cpu_freq_per_core': [{'current': 3180.318, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 4035.331, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 3111.191, 'min': 800.0, 'max': 5400.0}, {'current': 3922.388, 'min': 800.0, 'max': 5400.0}, {'current': 2673.72, 'min': 800.0, 'max': 5400.0}, {'current': 5379.942, 'min': 800.0, 'max': 5400.0}, {'current': 2669.887, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 2652.694, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 2608.641, 'min': 800.0, 'max': 4200.0}, {'current': 4100.859, 'min': 800.0, 'max': 4200.0}, {'current': 3199.83, 'min': 800.0, 'max': 4200.0}, {'current': 2623.076, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 2686.498, 'min': 800.0, 'max': 4200.0}, {'current': 2613.432, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}], 'disk': {'/': {'total': 457.3268280029297, 'used': 418.5792045593262}}, 'gpu': 'NVIDIA GeForce RTX 4070 Ti SUPER', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4070 Ti SUPER', 'memory_total': 17171480576}], 'memory': {'total': 31.172863006591797}}
+2024-09-09 00:19:32,963 INFO    HandlerThread:20038 [system_monitor.py:probe():224] Finished collecting system info
+2024-09-09 00:19:32,963 INFO    HandlerThread:20038 [system_monitor.py:probe():227] Publishing system info
+2024-09-09 00:19:32,963 DEBUG   HandlerThread:20038 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-09-09 00:19:33,912 INFO    Thread-12 :20038 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/files/conda-environment.yaml
+2024-09-09 00:19:33,985 DEBUG   HandlerThread:20038 [system_info.py:_save_conda():224] Saving conda packages done
+2024-09-09 00:19:33,987 INFO    HandlerThread:20038 [system_monitor.py:probe():229] Finished publishing system info
+2024-09-09 00:19:33,993 DEBUG   SenderThread:20038 [sender.py:send():391] send: files
+2024-09-09 00:19:33,993 INFO    SenderThread:20038 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-09-09 00:19:34,035 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: python_packages
+2024-09-09 00:19:34,036 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: python_packages
+2024-09-09 00:19:34,036 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-09 00:19:34,036 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-09 00:19:34,036 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: stop_status
+2024-09-09 00:19:34,387 DEBUG   SenderThread:20038 [sender.py:send():391] send: telemetry
+2024-09-09 00:19:34,820 DEBUG   SenderThread:20038 [sender.py:send():391] send: exit
+2024-09-09 00:19:34,820 INFO    SenderThread:20038 [sender.py:send_exit():598] handling exit code: 1
+2024-09-09 00:19:34,820 INFO    SenderThread:20038 [sender.py:send_exit():600] handling runtime: 1
+2024-09-09 00:19:34,821 INFO    SenderThread:20038 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-09 00:19:34,821 INFO    SenderThread:20038 [sender.py:send_exit():606] send defer
+2024-09-09 00:19:34,822 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:19:34,822 INFO    HandlerThread:20038 [handler.py:handle_request_defer():184] handle defer: 0
+2024-09-09 00:19:34,822 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:19:34,822 INFO    SenderThread:20038 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-09-09 00:19:34,823 INFO    SenderThread:20038 [sender.py:transition_state():626] send defer: 1
+2024-09-09 00:19:34,823 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:19:34,823 INFO    HandlerThread:20038 [handler.py:handle_request_defer():184] handle defer: 1
+2024-09-09 00:19:34,823 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:19:34,823 INFO    SenderThread:20038 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-09-09 00:19:34,823 INFO    SenderThread:20038 [sender.py:transition_state():626] send defer: 2
+2024-09-09 00:19:34,824 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:19:34,824 INFO    HandlerThread:20038 [handler.py:handle_request_defer():184] handle defer: 2
+2024-09-09 00:19:34,824 INFO    HandlerThread:20038 [system_monitor.py:finish():203] Stopping system monitor
+2024-09-09 00:19:34,824 DEBUG   SystemMonitor:20038 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-09-09 00:19:34,824 INFO    HandlerThread:20038 [interfaces.py:finish():200] Joined cpu monitor
+2024-09-09 00:19:34,825 DEBUG   SystemMonitor:20038 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-09-09 00:19:34,826 INFO    HandlerThread:20038 [interfaces.py:finish():200] Joined disk monitor
+2024-09-09 00:19:34,826 DEBUG   SystemMonitor:20038 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-09-09 00:19:34,868 INFO    HandlerThread:20038 [interfaces.py:finish():200] Joined gpu monitor
+2024-09-09 00:19:34,868 INFO    HandlerThread:20038 [interfaces.py:finish():200] Joined memory monitor
+2024-09-09 00:19:34,868 INFO    HandlerThread:20038 [interfaces.py:finish():200] Joined network monitor
+2024-09-09 00:19:34,868 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:19:34,869 INFO    SenderThread:20038 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-09-09 00:19:34,869 INFO    SenderThread:20038 [sender.py:transition_state():626] send defer: 3
+2024-09-09 00:19:34,869 DEBUG   SenderThread:20038 [sender.py:send():391] send: stats
+2024-09-09 00:19:34,869 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:19:34,869 INFO    HandlerThread:20038 [handler.py:handle_request_defer():184] handle defer: 3
+2024-09-09 00:19:34,869 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:19:34,869 INFO    SenderThread:20038 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-09-09 00:19:34,869 INFO    SenderThread:20038 [sender.py:transition_state():626] send defer: 4
+2024-09-09 00:19:34,869 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:19:34,869 INFO    HandlerThread:20038 [handler.py:handle_request_defer():184] handle defer: 4
+2024-09-09 00:19:34,869 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:19:34,869 INFO    SenderThread:20038 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-09-09 00:19:34,869 INFO    SenderThread:20038 [sender.py:transition_state():626] send defer: 5
+2024-09-09 00:19:34,869 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:19:34,869 INFO    HandlerThread:20038 [handler.py:handle_request_defer():184] handle defer: 5
+2024-09-09 00:19:34,870 DEBUG   SenderThread:20038 [sender.py:send():391] send: summary
+2024-09-09 00:19:34,870 INFO    SenderThread:20038 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-09 00:19:34,870 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:19:34,870 INFO    SenderThread:20038 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-09-09 00:19:34,870 INFO    SenderThread:20038 [sender.py:transition_state():626] send defer: 6
+2024-09-09 00:19:34,870 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:19:34,870 INFO    HandlerThread:20038 [handler.py:handle_request_defer():184] handle defer: 6
+2024-09-09 00:19:34,870 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:19:34,870 INFO    SenderThread:20038 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-09-09 00:19:34,872 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: status_report
+2024-09-09 00:19:34,918 INFO    Thread-12 :20038 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/files/conda-environment.yaml
+2024-09-09 00:19:34,918 INFO    Thread-12 :20038 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/files/requirements.txt
+2024-09-09 00:19:34,918 INFO    Thread-12 :20038 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/files/wandb-metadata.json
+2024-09-09 00:19:34,919 INFO    Thread-12 :20038 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/files/wandb-summary.json
+2024-09-09 00:19:34,919 INFO    Thread-12 :20038 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/files/output.log
+2024-09-09 00:19:35,103 INFO    SenderThread:20038 [sender.py:transition_state():626] send defer: 7
+2024-09-09 00:19:35,103 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:19:35,103 INFO    HandlerThread:20038 [handler.py:handle_request_defer():184] handle defer: 7
+2024-09-09 00:19:35,104 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:19:35,104 INFO    SenderThread:20038 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-09-09 00:19:35,313 INFO    wandb-upload_0:20038 [upload_job.py:push():130] Uploaded file /tmp/tmpaw_sx4ywwandb/ibmu4j27-wandb-metadata.json
+2024-09-09 00:19:35,819 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-09 00:19:35,917 INFO    Thread-12 :20038 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/files/config.yaml
+2024-09-09 00:19:36,782 INFO    SenderThread:20038 [sender.py:transition_state():626] send defer: 8
+2024-09-09 00:19:36,782 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: poll_exit
+2024-09-09 00:19:36,783 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:19:36,783 INFO    HandlerThread:20038 [handler.py:handle_request_defer():184] handle defer: 8
+2024-09-09 00:19:36,783 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:19:36,784 INFO    SenderThread:20038 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-09-09 00:19:36,784 INFO    SenderThread:20038 [job_builder.py:build():443] Attempting to build job artifact
+2024-09-09 00:19:36,784 INFO    SenderThread:20038 [job_builder.py:_get_source_type():572] is repo sourced job
+2024-09-09 00:19:36,803 INFO    SenderThread:20038 [job_builder.py:build():548] adding wandb-job metadata file
+2024-09-09 00:19:36,818 INFO    SenderThread:20038 [sender.py:transition_state():626] send defer: 9
+2024-09-09 00:19:36,818 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:19:36,819 INFO    HandlerThread:20038 [handler.py:handle_request_defer():184] handle defer: 9
+2024-09-09 00:19:36,819 DEBUG   SenderThread:20038 [sender.py:send():391] send: artifact
+2024-09-09 00:19:36,820 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-09 00:19:36,918 INFO    Thread-12 :20038 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/files/output.log
+2024-09-09 00:19:38,059 INFO    SenderThread:20038 [sender.py:send_artifact():1549] sent artifact job-https___github.com_DH1929ds_diffusion-distillation.git_distillation.py - {'id': 'QXJ0aWZhY3Q6MTE5Nzk1NzY1OA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQzMzQ3MjQ3NQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTE5Nzk1NzY1OA==', 'versionIndex': 0}}}
+2024-09-09 00:19:38,059 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:19:38,059 INFO    SenderThread:20038 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-09-09 00:19:38,060 INFO    SenderThread:20038 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-09-09 00:19:38,919 INFO    SenderThread:20038 [dir_watcher.py:finish():388] scan: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/files
+2024-09-09 00:19:38,920 INFO    SenderThread:20038 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/files/config.yaml config.yaml
+2024-09-09 00:19:38,920 INFO    SenderThread:20038 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/files/requirements.txt requirements.txt
+2024-09-09 00:19:38,921 INFO    SenderThread:20038 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/files/conda-environment.yaml conda-environment.yaml
+2024-09-09 00:19:38,931 INFO    SenderThread:20038 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/files/wandb-metadata.json wandb-metadata.json
+2024-09-09 00:19:38,937 INFO    SenderThread:20038 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/files/output.log output.log
+2024-09-09 00:19:38,937 INFO    SenderThread:20038 [dir_watcher.py:finish():402] scan save: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/files/wandb-summary.json wandb-summary.json
+2024-09-09 00:19:38,938 INFO    SenderThread:20038 [sender.py:transition_state():626] send defer: 10
+2024-09-09 00:19:38,938 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: poll_exit
+2024-09-09 00:19:38,939 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:19:38,939 INFO    HandlerThread:20038 [handler.py:handle_request_defer():184] handle defer: 10
+2024-09-09 00:19:38,944 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:19:38,948 INFO    SenderThread:20038 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-09-09 00:19:38,950 INFO    SenderThread:20038 [file_pusher.py:finish():169] shutting down file pusher
+2024-09-09 00:19:39,634 INFO    wandb-upload_0:20038 [upload_job.py:push():130] Uploaded file /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/files/requirements.txt
+2024-09-09 00:19:39,827 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-09 00:19:39,827 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: poll_exit
+2024-09-09 00:19:39,968 INFO    wandb-upload_1:20038 [upload_job.py:push():130] Uploaded file /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/files/config.yaml
+2024-09-09 00:19:39,968 INFO    wandb-upload_4:20038 [upload_job.py:push():130] Uploaded file /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/files/wandb-summary.json
+2024-09-09 00:19:40,255 INFO    wandb-upload_3:20038 [upload_job.py:push():130] Uploaded file /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/files/output.log
+2024-09-09 00:19:40,255 INFO    wandb-upload_2:20038 [upload_job.py:push():130] Uploaded file /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/files/conda-environment.yaml
+2024-09-09 00:19:40,456 INFO    Thread-11 :20038 [sender.py:transition_state():626] send defer: 11
+2024-09-09 00:19:40,456 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:19:40,456 INFO    HandlerThread:20038 [handler.py:handle_request_defer():184] handle defer: 11
+2024-09-09 00:19:40,457 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:19:40,457 INFO    SenderThread:20038 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-09-09 00:19:40,457 INFO    SenderThread:20038 [file_pusher.py:join():175] waiting for file pusher
+2024-09-09 00:19:40,457 INFO    SenderThread:20038 [sender.py:transition_state():626] send defer: 12
+2024-09-09 00:19:40,457 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:19:40,457 INFO    HandlerThread:20038 [handler.py:handle_request_defer():184] handle defer: 12
+2024-09-09 00:19:40,457 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:19:40,457 INFO    SenderThread:20038 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-09-09 00:19:40,457 INFO    SenderThread:20038 [file_stream.py:finish():601] file stream finish called
+2024-09-09 00:19:40,656 INFO    SenderThread:20038 [file_stream.py:finish():605] file stream finish is done
+2024-09-09 00:19:40,656 INFO    SenderThread:20038 [sender.py:transition_state():626] send defer: 13
+2024-09-09 00:19:40,656 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:19:40,656 INFO    HandlerThread:20038 [handler.py:handle_request_defer():184] handle defer: 13
+2024-09-09 00:19:40,656 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:19:40,656 INFO    SenderThread:20038 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-09-09 00:19:40,656 INFO    SenderThread:20038 [sender.py:transition_state():626] send defer: 14
+2024-09-09 00:19:40,656 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: defer
+2024-09-09 00:19:40,656 INFO    HandlerThread:20038 [handler.py:handle_request_defer():184] handle defer: 14
+2024-09-09 00:19:40,656 DEBUG   SenderThread:20038 [sender.py:send():391] send: final
+2024-09-09 00:19:40,656 DEBUG   SenderThread:20038 [sender.py:send():391] send: footer
+2024-09-09 00:19:40,656 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: defer
+2024-09-09 00:19:40,656 INFO    SenderThread:20038 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-09-09 00:19:40,657 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-09 00:19:40,657 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: poll_exit
+2024-09-09 00:19:40,657 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: server_info
+2024-09-09 00:19:40,657 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: server_info
+2024-09-09 00:19:40,658 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-09 00:19:40,658 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: get_summary
+2024-09-09 00:19:40,658 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: sampled_history
+2024-09-09 00:19:40,658 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-09 00:19:40,843 DEBUG   SenderThread:20038 [sender.py:send_request():418] send_request: poll_exit
+2024-09-09 00:19:40,844 INFO    MainThread:20038 [wandb_run.py:_footer_history_summary_info():4088] rendering history
+2024-09-09 00:19:40,844 INFO    MainThread:20038 [wandb_run.py:_footer_history_summary_info():4120] rendering summary
+2024-09-09 00:19:40,844 INFO    MainThread:20038 [wandb_run.py:_footer_sync_info():4047] logging synced files
+2024-09-09 00:19:40,844 DEBUG   HandlerThread:20038 [handler.py:handle_request():158] handle_request: shutdown
+2024-09-09 00:19:40,844 INFO    HandlerThread:20038 [handler.py:finish():884] shutting down handler
+2024-09-09 00:19:41,658 INFO    WriterThread:20038 [datastore.py:close():296] close: /home/sehwan/MIIL/diffusion-distillation/wandb/run-20240909_001932-chlzcmxl/run-chlzcmxl.wandb
+2024-09-09 00:19:41,844 INFO    SenderThread:20038 [sender.py:finish():1631] shutting down sender
+2024-09-09 00:19:41,844 INFO    SenderThread:20038 [file_pusher.py:finish():169] shutting down file pusher
+2024-09-09 00:19:41,845 INFO    SenderThread:20038 [file_pusher.py:join():175] waiting for file pusher

@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/sehwan/MIIL/diffusion-distillation/distillation.py", line 548, in <module>
+    app.run(main)
+  File "/home/sehwan/anaconda3/envs/SLD/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/sehwan/anaconda3/envs/SLD/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/sehwan/MIIL/diffusion-distillation/distillation.py", line 544, in main
+    distill_caching_random()
+  File "/home/sehwan/MIIL/diffusion-distillation/distillation.py", line 349, in distill_caching_random
+    ckpt = torch.load(os.path.join(FLAGS.logdir, 'ckpt.pt'))
+  File "/home/sehwan/anaconda3/envs/SLD/lib/python3.9/site-packages/torch/serialization.py", line 797, in load
+    with _open_zipfile_reader(opened_file) as opened_zipfile:
+  File "/home/sehwan/anaconda3/envs/SLD/lib/python3.9/site-packages/torch/serialization.py", line 283, in __init__
+    super().__init__(torch._C.PyTorchFileReader(name_or_buffer))
+RuntimeError: PytorchStreamReader failed reading zip archive: failed finding central directory

@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/sehwan/MIIL/diffusion-distillation/memo.py", line 386, in <module>
+    app.run(main)
+  File "/home/sehwan/anaconda3/envs/SLD/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/sehwan/anaconda3/envs/SLD/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/sehwan/MIIL/diffusion-distillation/memo.py", line 382, in main
+    distill_caching_random2()
+  File "/home/sehwan/MIIL/diffusion-distillation/memo.py", line 360, in distill_caching_random2
+    ddim_pipeline = DDIMPipeline(
+  File "/home/sehwan/anaconda3/envs/SLD/lib/python3.9/site-packages/diffusers/pipelines/pipeline_utils.py", line 730, in to
+    module.dtype == torch.float16
+  File "/home/sehwan/anaconda3/envs/SLD/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1614, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'UNet' object has no attribute 'dtype'
